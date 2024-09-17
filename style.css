@@ -1,0 +1,194 @@
+*{
+    font-family: Roboto;
+}
+
+body {
+    display:flex;
+    flex-direction: column;
+    padding:0;
+    margin:0;
+}
+
+/* To give all elements that squished look, to not be in the middle*/ 
+
+
+.header {
+
+    padding-left:10%;
+    padding-right:10%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    color:#F9FAF8;
+    font-size:24px;
+    flex:1;
+}
+
+ul {
+    list-style: none;
+    display:flex;
+}
+
+.image-links {
+    gap:25px;
+}
+.image-links img{ 
+    width:50px;
+    flex: 1;  
+}
+
+.image-links img:hover {
+    cursor:pointer;
+        
+}
+
+button {
+    background-color:#3882F6;
+    color:white;
+    border:none;
+    border-radius: 5%;
+    padding:7px 28px 7px 28px;
+    border-radius: 12px;
+    font-size:14px;
+}
+
+
+
+/* Hero section*/
+.hero {
+    background-color: #1F2937;
+    padding:40px 20px 40px 20px;
+    display:flex;
+    justify-content: center;
+    
+}
+
+.hero-main-text {
+    font-size: 48px;
+    color:#F9FAF8;
+    font-weight:900;
+    width:80%;
+}
+
+.hero-secondary-text {
+    width:80%;
+    font-size:18px;
+    color:#E5E7EB;
+}
+.hero .left{
+    max-width:640px;
+}
+
+.hero .right {
+    width:350px;
+    flex: 0 1 auto;
+}
+
+
+.hero img {
+    width:350px;
+}
+
+
+/*information section*/
+.info-section{
+    margin-bottom: 100px;
+}
+
+.info-title{
+    font-size: 36px;
+    color:#1F2937;
+    font-weight: 900;
+    text-align: center;
+    
+}
+
+.card-container {
+    display:flex;
+    justify-content: center;
+    gap:20px;
+}
+
+.card {
+    width: 150px;
+}
+
+.card-img img{
+    border:#3882F6 4px solid;
+    border-radius: 10%;
+    height:150px;
+    width:150px;
+}
+
+/*quote section*/
+
+.quote-section {
+    background-color: #E5E7EB;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:50px 0 50px 0;
+}
+
+.quote {
+    width:700px;
+    font-size:36px;
+    font-weight:light;
+    font-style:italic;
+    color:#1F2937;
+    margin-bottom: -20px;
+}
+
+.quote-name {
+    color:#1F2937;
+    font-weight:bold;
+    font-size:18px;
+    margin-left:450px;
+}
+
+
+/* call to action */
+
+.call-card {
+    margin:auto;
+    display:flex;
+    justify-content: center;
+    background-color: #3882F6;
+    width:60%;
+    border-radius: 10px;
+    padding:30px;
+    margin-top:100px;
+    margin-bottom:100px;
+}
+
+.call-card h2, p {
+    margin:0;
+}
+
+.call-card p {
+    color:gainsboro;
+}
+
+.call-card h2, button {
+    color:#F9FAF8
+}
+
+.call-card button {
+    font-size: large;
+    border: white 2px solid;
+    margin-left:100px;
+}
+
+footer {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color:#F9FAF8;
+    height:75px;
+    font-size:large;
+}
+
+
+
